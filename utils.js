@@ -1,16 +1,3 @@
-// function limpiarYFiltrar(texto) {
-//     const palabras = texto.toLowerCase()
-//         .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "")
-//         .split(/\s+/);
-
-//     const ignorar = ["el", "la", "de", "que", "y", "a", "en", "un", "con", "los", "las"]
-
-//     return palabras.filter(palabra => palabra.lenght > 0 && !ignorar.includes(palabra) )
-
-// }
-
-// module.exports = { limpiarYFiltrar  };
-
 function limpiarYFiltrar(texto) {
     
     const textoLimpio = texto.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
